@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import UserService from "./UserService";
 import UsersOneLetter from "./UsersOneLetter";
 import BirthDays from "./BirthDays";
-import {UserContext} from "./UserContext";
 
 class Users extends Component {
     constructor(props) {
@@ -43,23 +42,21 @@ class Users extends Component {
             );
         } else {
             return (
-                <UserContext.Provider value={{}}>
-                    <div className="UsersPage">
-                        <div className="Users">
-                            <div className="header">Employees</div>
-                            <div className="user-list">
-                                {Array.from(ALPHABET_UPPER).map(
-                                    (letter, index) => (
-                                        <UsersOneLetter letter={letter} index={index} users={users[index]}/>
-                                    )
-                                )}
-                            </div>
-                        </div>
-                        <div className="BirthDays">
-                            <BirthDays/>
+                <div className="UsersPage">
+                    <div className="Users">
+                        <div className="header">Employees</div>
+                        <div className="user-list">
+                            {Array.from(ALPHABET_UPPER).map(
+                                (letter, index) => (
+                                    <UsersOneLetter letter={letter} key={index} users={users[index]}/>
+                                )
+                            )}
                         </div>
                     </div>
-                </UserContext.Provider>
+                    <div className="BirthDays">
+                        <BirthDays/>
+                    </div>
+                </div>
             );
         }
     }

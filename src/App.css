@@ -45,17 +45,23 @@
   margin: 0 0 15px 0;
 }
 
-.employee{
-  text-align: left;
-}
-
 .user-names[userActive="1"] {
   color: blue;
   font-weight: bolder;
 }
 
+.user-birthday {
+  text-align: left;
+}
+
 .block-radio{
   font-size: 0.8rem;
   margin: 0 0 0 10px;
+}
+
+.block-month {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1.2rem;
 }
 
