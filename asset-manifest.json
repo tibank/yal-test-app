@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/yal-test-app/index.html/static/css/main.f619ecc1.chunk.css",
-    "main.js": "/yal-test-app/index.html/static/js/main.1d09d693.chunk.js",
-    "main.js.map": "/yal-test-app/index.html/static/js/main.1d09d693.chunk.js.map",
-    "runtime-main.js": "/yal-test-app/index.html/static/js/runtime-main.b6984811.js",
-    "runtime-main.js.map": "/yal-test-app/index.html/static/js/runtime-main.b6984811.js.map",
-    "static/js/2.a49632c6.chunk.js": "/yal-test-app/index.html/static/js/2.a49632c6.chunk.js",
-    "static/js/2.a49632c6.chunk.js.map": "/yal-test-app/index.html/static/js/2.a49632c6.chunk.js.map",
-    "static/js/3.9c586b96.chunk.js": "/yal-test-app/index.html/static/js/3.9c586b96.chunk.js",
-    "static/js/3.9c586b96.chunk.js.map": "/yal-test-app/index.html/static/js/3.9c586b96.chunk.js.map",
-    "index.html": "/yal-test-app/index.html/index.html",
-    "static/css/main.f619ecc1.chunk.css.map": "/yal-test-app/index.html/static/css/main.f619ecc1.chunk.css.map",
-    "static/js/2.a49632c6.chunk.js.LICENSE.txt": "/yal-test-app/index.html/static/js/2.a49632c6.chunk.js.LICENSE.txt"
+    "main.css": "/yal-test-app/static/css/main.f619ecc1.chunk.css",
+    "main.js": "/yal-test-app/static/js/main.1d09d693.chunk.js",
+    "main.js.map": "/yal-test-app/static/js/main.1d09d693.chunk.js.map",
+    "runtime-main.js": "/yal-test-app/static/js/runtime-main.69ea237a.js",
+    "runtime-main.js.map": "/yal-test-app/static/js/runtime-main.69ea237a.js.map",
+    "static/js/2.a49632c6.chunk.js": "/yal-test-app/static/js/2.a49632c6.chunk.js",
+    "static/js/2.a49632c6.chunk.js.map": "/yal-test-app/static/js/2.a49632c6.chunk.js.map",
+    "static/js/3.9c586b96.chunk.js": "/yal-test-app/static/js/3.9c586b96.chunk.js",
+    "static/js/3.9c586b96.chunk.js.map": "/yal-test-app/static/js/3.9c586b96.chunk.js.map",
+    "index.html": "/yal-test-app/index.html",
+    "static/css/main.f619ecc1.chunk.css.map": "/yal-test-app/static/css/main.f619ecc1.chunk.css.map",
+    "static/js/2.a49632c6.chunk.js.LICENSE.txt": "/yal-test-app/static/js/2.a49632c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6984811.js",
+    "static/js/runtime-main.69ea237a.js",
     "static/js/2.a49632c6.chunk.js",
     "static/css/main.f619ecc1.chunk.css",
     "static/js/main.1d09d693.chunk.js"
